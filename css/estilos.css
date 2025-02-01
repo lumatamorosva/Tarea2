@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Portada {
+    background: #FFFFFF;
+    text-align: center;
+    color: #7A8580;
+    margin: 20, 0, 20, 0;
+}
+div {
+    display: flex;
+}
+div.logo {
+    display: flex;
+  justify-content: center;
+}
+
+img.logotipo {
+    position: relative;
+    width: 146px;
+}
+
+a {
+    background-color: aqua;
+}
+
+.bloque {
+    background-color:  aqua;
+}
+
+img.static {
+    position: static;
+}
+img.relative {
+    position: relative;
+}
+img.fixed {
+    position: fixed;
+}
+img.absolute {
+    position: absolute;
+}
+img.sticky {
+    position: sticky;
+}
+img.floaty {
+    float: right;
+}
+img.floatyl {
+    float: left;
+}
+p.clear {
+    clear:left;
+}
+
+table {
+    border-spacing: 15px;
+    border: solid;
+}
+
+tr.visible {
+    visibility: visible;
+}
+
+tr.hidden {
+    visibility: hidden;
+}
+
+tr.colapse {
+    visibility: collapse;
+}
+
+div.OSc {
+    border: black solid 1px;
+    height: 75px;
+    overflow: scroll;
+}
+div.OHi {
+    border: black solid 1px;
+    height: 70px;
+    overflow: hidden;
+}
+div.OVi {
+    border: black solid 1px;
+    height: 75px;
+    overflow: visible;
+}
